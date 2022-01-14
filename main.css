@@ -1,4 +1,19 @@
 body {
-    background-color: yellow;
+    background-color: black;
+    text-align: center;
 }
 
+h1 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3d5a80;
+    text-align: center;
+}
