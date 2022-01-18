@@ -1,19 +1,16 @@
-body {
-    background-color: black;
-    text-align: center;
-}
-
-h1 {
-    color: white;
-    font-size: 16px;
-    text-align: center;
-}
-
 .grid {
-    height: 400px;
-    width: 400px;
+    height: 800px;
+    width: 800px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*da fitajo v grid*/
     background-color: #3d5a80;
     text-align: center;
 }
+
+.grid div {  /*oblikovalo bo samo dive, ki so znotraj div grid  */
+height: 80px;
+width: 80px;
+}
+
+
+ 
