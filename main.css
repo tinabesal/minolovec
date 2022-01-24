@@ -1,6 +1,6 @@
 .grid {
-    height: 800px;
-    width: 800px;
+    height: 400px;
+    width: 400px;
     display: flex;
     flex-wrap: wrap; /*da fitajo v grid*/
     background-color: #3d5a80;
@@ -8,11 +8,15 @@
 }
 
 .grid div {  /*oblikovalo bo samo dive, ki so znotraj div grid  */
-height: 80px;
-width: 80px;
+height: 40px;
+width: 40px;
 }
 
 
  .bomb{
-   background-color: orange;
+   background-color: red;
+ }
+
+ .checked{
+   background-color: cadetblue;
  }
